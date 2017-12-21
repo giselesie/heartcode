@@ -11,3 +11,42 @@ hr {
     font-size: 80px;
     text-align: center
 }
+
+.nocolor {
+    text-decoration: none;
+    color:black
+}
+
+@font-face {
+    font-family: wildthing;
+    src: url(wildthing.ttf);
+}
+
+.header {
+    font-family: wildthing;
+}
+
+
+@font-face {
+    font-family: blacklist;
+    src: url(blacklist.ttf);
+}
+
+.moreinfo {
+    font-family: blacklist;
+}
+
+.footer {
+    text-align: center;
+    background-image: url(footer.jpg) ;
+    padding: 5px;
+}
+
+.footer h1 {
+    color: white;
+    font-family: wildthing; 
+}
+
+.moreinfo h1 {
+    text-align: center;
+}
